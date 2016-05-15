@@ -9,5 +9,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChuBaka13321/angularSandBox.git"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
   }
 }

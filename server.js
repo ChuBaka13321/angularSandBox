@@ -6,7 +6,7 @@ var path = require('path');
 //   res.sendFile(path.join(__dirname + '/index.html'));
 // });
 
-app.use(express.static(__dirname + '/'))
+app.use(express.static(__dirname + '/'));
 
 app.listen(1337);
 
@@ -26,4 +26,4 @@ app.listen(1337);
 
 // }).listen(1337);
 
-console.log('Visit me at http://localhost:1337')
+console.log('Visit me at http://localhost:1337');
